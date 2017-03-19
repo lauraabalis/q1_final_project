@@ -1,0 +1,125 @@
+body {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 100%;
+  background: url("images/fruit_veg2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Griffy', cursive;
+}
+
+html {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 100%;
+}
+
+.container-fluid {
+  /*width: 100vw;*/
+  height: 100vh;
+  margin: 0px 5vw;
+  padding-bottom: 0px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin: 25px;
+}
+
+h1 {
+  color: #008349;
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #008349;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.div-inline{
+    display: inline-block;
+}
+
+.dropdown-menu {
+  background-color: #EAF3D7;
+}
+
+a {
+  color: #008349;
+}
+
+a:hover {
+  color: red;
+}
+
+.form-search {
+  float: right;
+}
+
+.btn {
+  background-color: #008349;
+  color: #EAF3D7;
+}
+
+#mySelect {
+  background-color: #008349;
+  color: #EAF3D7;
+  width: 200px;
+  height: 40px;
+}
+
+.ingBox {
+  border: 2px solid #008349;
+  background-color: #EAF3D7;
+  padding: 3px;
+}
+
+.col-md-6 {
+  height: 100%;
+  padding: 1px;
+}
+
+.videoBox {
+  border: 2px solid black;
+  margin: 1px 40px 30px 40px;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoSpecs {
+  width: 560;
+  height: 315;
+  frameborder: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#instructionBox {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 30px;
+  color: #008349;
+  font-weight: bold;
+  background-color: #EAF3D7;
+  border-radius: 25px;
+  padding: 20px;
+  border: 10px double #008349;
+}
+
+ol {
+  text-align: center;
+  list-style-position: inside;
+}
+
+#choices {
+  margin-bottom: 35px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Vegan Recipe Generator</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Griffy" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-center">
+            <img class="logo" src="images/logo.png" alt="Vegan Green Flower">
+          </div>
+          <h1>Recipe Generator</h1>
+        </div>
+      </div>
+
+      <div id="choices" class="row">
+        <div class="col-md-10 offset-md-1">
+          <select id="mySelect">
+              <option value="choose">Select Meal</option>
+              <option value="breakfast">Breakfast</option>
+              <option value="lunch">Lunch</option>
+              <option value="dinner">Dinner</option>
+              <option value="dessert">Dessert</option>
+              <option value="snack">Snack</option>
+          </select>
+          <form class="form-search">
+            <input type="text" class="ingBox input-medium search-query" placeholder="Desired Ingredient">
+            <button id="searchRecipes" type="submit" class="btn">Find Recipes</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="instructionBox" class="col-md-8 offset-md-2">
+          <h2>Instructions</h2>
+          <p>1. Would you like to eat breakfast, lunch, dinner, dessert, or a snack? Go to the dropdown menu, and select the meal you wish to eat.</p>
+          <p>2. What would you like the main ingredient of your recipe to be? Select that ingredient, type it in the box, and click "Find Recipes."</p>
+          <p>3. Watch each video, and select the recipe that most appeals to you.</p>
+          <p>4. Rewatch the video that depicts your desired recipe while preparing your meal.</p>
+        </div>
+      </div>
+      <div id="videos" class="row"></div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
